@@ -49,7 +49,14 @@ Outputs the Topic Analysis and immediately proceeds to Step 3 without asking for
 QUESTION RESEARCH COMPLETE
 
 Highly Relevant Questions:
-1. ...
+1.
+2.
+3.
+
+Secondary Questions:
+4.
+5.
+6.
 ```
 
 ### Ask User
@@ -61,8 +68,9 @@ Highly Relevant Questions:
 *(Runs automatically after Step 3 approval)*
 
 ### AI Task
-Analyse AI Overview, Featured Snippets, and Top Organic Results for selected questions. Proceeds to Step 5 automatically.
-
+For each approved question:
+1. Search Google using target client location.
+2. Analyse AI Overview, Featured Snippets, Top Organic Results, PAA, SERP Intent.
 ---
 
 ## STEP 5 — LLM / AI Search Analysis
