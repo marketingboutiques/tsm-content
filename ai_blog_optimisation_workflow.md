@@ -1,7 +1,7 @@
 # AI Blog Optimisation Workflow (Step-by-Step Review Process)
 
 ## Goal
-Enhance existing blog content for AI Search / LLM / AI Overview visibility by analysing user intent, extracting related questions, modelling AI-generated answers, and improving content relevance.
+Enhance existing blog content for AI Search / LLM / AI Overview visibility by analysing user intent, extracting related questions, modelling AI-generated answers, and improving content relevance. All final output must strictly follow readability and structural constraints.
 
 ---
 
@@ -162,6 +162,7 @@ Recommended Additions:
 
 ### AI Task
 Generate actionable recommendations for content, structure, semantics, and E-E-A-T.
+*Constraint Note:* Do NOT recommend placing questions in a bottom FAQ section. Always recommend placing the target Q&A explicitly at the BEGINNING of the blog content.
 
 ### Output for Review
 ```text
@@ -173,10 +174,10 @@ Priority Fixes:
 3.
 
 Recommended New Sections:
-1.
-2.
+1. Initial Q&A Section (Placed at the top of the blog)
+2. 
 
-Suggested FAQs:
+Suggested Initial Q&A:
 1.
 2.
 3.
@@ -187,12 +188,26 @@ Suggested FAQs:
 
 ---
 
-## STEP 8 — Implement Blog Optimisations
+## STEP 8 — Output Blog Recommendations (Copy-Paste Format)
 
 ### AI Task
-Rewrite/update blog content with approved changes.
+Generate the exact text for the new recommendations (Initial Q&A, Comparison Tables, etc.) so the user can manually copy-paste it into their live blog. Do NOT rewrite the entire original blog or save it over the original file; ONLY output the new content blocks in the chat response.
+
+**Strict Content Writing Rules:**
+1. Write content at an 8th-grade English comprehension level.
+2. Keep the language simple, clear, and easy to understand.
+3. Avoid jargon, complex words, and long or confusing sentences.
+4. Break down complex ideas into simple explanations.
+5. Use bullet points heavily.
+6. Instead of long paragraphs, use short sentences.
 
 ### Output for Review
+```markdown
+[INSERT THE FORMATTED NEW 8TH-GRADE CONTENT BLOCKS HERE]
+```
+
+***
+
 ```text
 UPDATED BLOG DRAFT READY
 
@@ -203,7 +218,7 @@ Changes Implemented:
 ```
 
 ### Ask User
-"Please review updated draft. Approve final version?"
+"Please review the provided copy-paste text. Approve final version?"
 
 ---
 
@@ -236,4 +251,5 @@ Follow this exact workflow:
 4. Maintain context from previous steps.
 5. Be highly analytical and SEO-focused.
 6. Prioritise AI Overview / LLM optimisation best practices.
+7. Adhere strictly to the 8th-grade readability and formatting rules during output generation in Step 8.
 ```
