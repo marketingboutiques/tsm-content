@@ -35,9 +35,30 @@ This is a fully operationalised, end-to-end system for creating and optimising h
 *Prompt:*
 > Act as a research analyst.
 > Find real, verifiable data for: [TITLE / TOPIC]
-> Sources priority: Government websites, Research papers, Industry reports, Statistical databases.
+> Sources priority: Government websites (e.g. WHO, CDC, ABS, Census, official statistics portals), Research papers, academic journals, Industry reports, Statistical databases.
 > For each data point: Include statistic, source name, year, and a 1-line relevance explanation.
 > Avoid generic statements. Only include factual data.
+
+## Data Requirements
+- Prioritise the most recent data available (preferably from the last 2–3 years).
+- If older data is used, only include it if it is still widely cited or foundational.
+
+
+## Rules
+- Avoid generic or vague statements
+- Do not fabricate or assume data
+- Prefer quantified insights over descriptive claims
+- Highlight conflicting data if present
+- Avoid outdated data unless clearly justified
+
+## Advanced Requirement (LLM Optimisation)
+- Identify 2–3 data points that are:
+  - Surprising, OR
+  - Counterintuitive, OR
+  - Highly quotable
+
+## Goal
+Provide credible, up-to-date data that strengthens authority, trust (E-E-A-T), and makes the content citation-worthy for both search engines and LLMs.
 
 ---
 
