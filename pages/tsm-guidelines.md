@@ -7,54 +7,50 @@ This document contains the core brand brief and the standardized AI prompts/work
 ### 🧠 1. Brand Entity (Core Identity)
 * **Brand Name:** Texas Strong Mechanical LLC
 * **Founded:** 2019
-* **Owner:** Reynaldo Rios
-* **Location:** Humble, Texas (serving Greater Houston – ~30 mile radius)
+* **Owner:** Reynaldo Rios (Former NRG Energy Field Supervisor & Abacus Technician)
+* **Address (NAP):** [Insert Street Address], Humble, TX [Zip Code] 
 * **Phone:** +1 832-419-4488
 * **Email:** info@texasstrongmechanical.com
-* **Team Size:** 10
+* **License:** TACLA00126275E (Texas State Licensed)
+* **Warranties:** 1-year parts and labor warranty on all repairs.
 
-**👉 Entity Positioning (for Google + AI):**
-Texas Strong Mechanical is a Houston-based HVAC service company specialising in residential and light commercial air conditioning repair, installation, and maintenance, known for same-day service, transparent pricing, and local reliability.
+**👉 SEO Insight:** NAP (Name, Address, Phone) must be consistent on every page. Always include the full physical address in the footer or contact block.
 
 ### 🏆 2. Authority & Trust Signals (E-E-A-T Layer)
-* ⭐ 262 Google reviews
+* ⭐ 262+ Google reviews (5-star average)
 * 🛠 **Licensed:** TACLA00126275E
 * 🏅 **Certifications:** EPA, NATE
 * 🏆 **BBB recognition** (Awards for Excellence)
-* 👨‍🔧 **Owner experience:** NRG Energy (Field Supervisor), Abacus HVAC Technician
+* **Owner Expertise:** 15+ years of experience, specializing in repair-first solutions.
 
-**👉 SEO Insight:** These must be on the homepage, on every service page footer, and in schema markup. 
-**👉 TRUST STACKING:** You MUST repeat these signals (License #, Review count, Certifications) subtly in at least 2-3 different sections of the page to reinforce authority.
+**👉 TRUST STACKING:** Repeat License #, Review counts, and Warranty terms in at least 3 different sections.
 
 ### 🎯 3. Brand Positioning (Clear & Rankable)
 **🔑 Primary Position:**
-Honest, fast-response HVAC company in Houston focused on reliable AC repair, installation, and maintenance for homeowners and small businesses.
+Honest, fast-response HVAC company in Houston focused on reliable AC repair, installation, and maintenance.
 
-**🔑 Differentiators (REAL — not fluff):**
-* 24/7 emergency service (Same-day availability)
-* Response time: Often within hours; Repair time: Most repairs completed in one visit.
-* Transparent pricing (No hidden fees; Quotes provided before work starts)
-* We repair before recommending replacement (Repair-first philosophy)
-* Family-owned & local
-* Proven technician experience
-* Parts & labour guarantee
-
-**🔥 One-Line USP (use everywhere):**
-“Reliable same-day AC service in Houston with honest pricing and expert technicians.”
-
-### 🗣 4. Brand Voice & SEO Content Rules
-**Tone:** Friendly, local, trustworthy, slightly technical.
-**Write like:** A helpful technician explaining things clearly. Not corporate. Not overly salesy.
-**Structure:** Start with the **Problem/Need + Keyword** first. Do NOT start with the brand name. (e.g., "If you need AC repair in Houston...")
-**Word Count Goal:** 1,000+ words per page for deep intent coverage.
-**Keyword Coverage:** Naturally weave in variations: "ac repair houston", "ac service houston", "emergency ac repair houston", "near me".
-**Micro-Location Signals:** Sprinkle service area names (Katy, Sugar Land, Pearland, Cypress, The Woodlands, Conroe) 2-3 times naturally across the page.
-**Internal Linking:** Use keyword-rich anchor text. (e.g., Use "AC Repair in Houston" instead of just "AC Repair").
-**Strong CTAs:** Action-oriented: "Get Same-Day AC Repair in Houston" or "Speak to a Technician Now".
+**🔑 Differentiators:**
+* **24/7 emergency service** (Response often within hours).
+* **Repair-First Philosophy:** We fix it before we replace it.
+* **Transparent Pricing:** No hidden fees; upfront quotes provided.
+* **Family-Owned:** Local service for Houston, Katy, Sugar Land, Pearland, Cypress, and The Woodlands.
 
 ---
 
-### 🔗 5. Internal Link Directory (Use Keyword-Rich Anchors)
+### 🗣 4. Content & SEO Execution Rules
+* **Freshness Signal:** Include a "Last Updated: [Current Month/Year]" near the top of each page.
+* **H1 Optimization:** Lead with exact-match keywords (e.g., "AC Repair in Houston").
+* **Problem-First Intro:** Start with the customer's pain point + keyword (e.g., "Need AC repair in Houston?").
+* **Secondary Keywords:** Weave in "HVAC repair Houston", "air conditioning repair Houston", "emergency AC repair Houston", and "AC company near me".
+* **Keyword-Rich Subheadings:** H2s and H3s must capture search intent (e.g., "How Our Houston AC Repair Process Works").
+* **Anchors:** Add `id` attributes to high-intent sections (e.g., `id="ac-repair-cost"` for pricing).
+* **Internal Linking:** Use keyword-rich anchors. No placeholder links; every button/link must point to a specific URL.
+* **Image Alt Text:** Every image must have descriptive alt text (e.g., "Technician performing air conditioning repair in Houston home").
+* **Word Count:** 1,200+ words for deep intent coverage.
+
+---
+
+### 🔗 5. Internal Link Directory
 * **Air Duct Cleaning in Houston:** https://texasstrongmechanical.com/hvac-services/air-duct-cleaning-houston-tx/
 * **HVAC Maintenance Agreement:** https://texasstrongmechanical.com/hvac-services/maintenance-agreement/
 * **Commercial HVAC Repair in Houston:** https://texasstrongmechanical.com/hvac-services/commercial-hvac-repair-houston-tx/
@@ -74,28 +70,18 @@ Honest, fast-response HVAC company in Houston focused on reliable AC repair, ins
 ## ⚙️ AI WORKFLOWS & PROMPTS
 
 ### WORKFLOW 3: Content Outline Generation
-*(Updated Structural Requirements)*
-1. **Hero Section (H1)**: Optimized for keywords + intent. (e.g., "AC Repair in Houston | Same-Day Service & Honest Pricing").
-2. **Problem-First Intro**: Address the user's immediate need/pain point + primary keywords immediately.
-3. **Timeline & Speed Section**: Explicitly mention response times (within hours) and repair estimates.
-4. **Comparison Layer**: Add a "Repair vs Replacement" section to capture decision-stage users.
-5. **Trust Stacking**: Ensure License and Reviews are mentioned in the Hero, Service, and Footer/About sections.
-6. **Micro-Location Signals**: Plan to sprinkle specific cities (Katy, Sugar Land, etc.) in content blocks.
+1. **Hero Section (H1)**: Lead with exact keyword + same-day benefit.
+2. **Freshness & Expertise Block**: Include "Last Updated" and prominent mention of Reynaldo Rios's credentials.
+3. **Emergency AC Repair (H2)**: Specific focus on 24/7 availability and response times.
+4. **Transparent Pricing (H2)**: Use `id="ac-repair-cost"` and include a detailed breakdown.
+5. **Repair vs. Replacement Table (H2)**: A comparison table targeting the query "should I repair or replace my AC Houston".
+6. **Warranty & Guarantee Section**: Explicitly list the 1-year parts and labor warranty.
+7. **Contact Block / NAP**: Full address, phone, and license in a clear, crawlable format.
 
 ---
 
 ### WORKFLOW 4: Content Drafting & Optimisation
-#### STEP 2 — Draft Content Section-by-Section
-- **Rule:** Start with the keyword/problem. (e.g., "Finding a reliable AC company in Houston shouldn't be a struggle...")
-- **Rule:** Use keyword-rich internal links from the directory.
-- **Rule:** Repeat trust signals (License TACLA00126275E, 262+ reviews) in 2-3 distinct sections.
-- **Rule:** Sprinkle micro-location signals (Katy, Sugar Land, etc.) 2-3 times.
-
-#### STEP 3 — Apply AI / LLM Optimisation Pass
-- **Check:** Is the H1 keyword-optimized? 
-- **Check:** Is the intro problem-first?
-- **Check:** Are internal links using keyword anchors?
-- **Check:** Is the "Repair vs Replace" comparison included?
-- **Check:** Are speed/timeline details specific?
-- **Check:** Is the trust stacking repetitive and subtle?
-- **Check:** Are micro-location signals sprinkled?
+* **Rule:** Ensure the Meta Description leads with "Need AC repair in Houston?" and includes the 262+ review count.
+* **Rule:** Sprinkle the secondary keywords (HVAC repair, air conditioning repair, etc.) at least 3 times each.
+* **Rule:** Repeat trust signals (License TACLA00126275E, Reviews, 1-Year Warranty) in the Intro, Middle, and Footer sections.
+* **Rule:** Add `alt="..."` descriptions to all image placeholders.
